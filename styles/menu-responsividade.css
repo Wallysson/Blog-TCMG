@@ -1,10 +1,4 @@
 @media (max-width: 540px) {
-  section {
-    font-size: 90%;
-  }
-  section h1 {
-    font-size: 1.6rem;
-  }
   nav {
       display: none;
   }
