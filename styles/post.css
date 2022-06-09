@@ -22,6 +22,7 @@ header .container {
   width: 90%;
   max-width: 980px;
   margin: auto;
+  padding: 1.25rem 0;
 }
 
 header .container h4 {
@@ -110,4 +111,11 @@ section img {
   margin-top: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
+}
+
+footer {
+  background: blueviolet;
+  padding: 1rem;
+  color: white;
+  text-align: center;
 }
