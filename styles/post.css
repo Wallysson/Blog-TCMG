@@ -12,29 +12,42 @@ body {
 }
 
 header {
+  background: blueviolet;
+}
+
+header .container {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 1.5rem 0;
-  background: blueviolet;
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+header .container h4 {
+  padding: 1rem 0;
   color: white;
 }
 
 header nav ul {
   display: flex;
-  gap: 1rem;
 }
 
-header nav ul a {
-  display: flex;
-  gap: 1rem;
+header nav ul li a {
   color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+  transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+  background: rgba(255,255,255, 0.15)
 }
 
 section {
   margin: 0 auto;
   padding: 4rem;
-  width: 960px;
+  width: 980px;
   max-width: 100%;
   text-align: justify;
 }
