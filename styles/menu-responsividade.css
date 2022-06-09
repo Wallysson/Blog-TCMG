@@ -1,4 +1,8 @@
 @media (max-width: 540px) {
+    section {
+        padding: 2rem;
+    }
+
   nav {
       display: none;
   }
